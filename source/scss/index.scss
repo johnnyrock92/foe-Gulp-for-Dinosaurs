@@ -61,16 +61,16 @@ text-align: center;
 
 .hand {
 	width: 50%;
-	height: 1px;
+	height: 10px;
 	background: blue;
 	position: absolute;
 	top: 50%;
 	transform-origin: 100%;
 
 		&:hover {
-			transform: rotate(90deg);
+			transform: rotate(360deg);
 			transition: all 5s;
 
-			transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+			//transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 		}
 }
